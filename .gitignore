@@ -1,0 +1,7 @@
+build/
+bin/
+logs/*.log
+.vscode/
+.DS_Store
+*.swp
+server_app
