@@ -1,5 +1,5 @@
 # AsyncLogger & ThreadPool: High-Performance C++11 Basic Components Library
-[ÖÐÎÄ°æ (Chinese Version)](README.md)
+[ä¸­æ–‡ç‰ˆ (Chinese Version)](README.md)
 
 ![C++](https://img.shields.io/badge/C++-11-blue.svg)
 ![Build](https://img.shields.io/badge/build-CMake-green.svg)
@@ -23,16 +23,16 @@ By separating front-end business logic from back-end disk I/O operations, this s
 
 ```text
 thread_pool_logger/
-©À©¤©¤ CMakeLists.txt        # CMake automated build configuration file
-©À©¤©¤ include/              # Header files directory (exposed interface declarations)
-©¦   ©À©¤©¤ AsyncLogger.h     # Async logger module declaration
-©¦   ©À©¤©¤ BlockingQueue.h   # Thread-safe blocking queue template implementation
-©¦   ©¸©¤©¤ ThreadPool.h      # Thread pool module declaration
-©À©¤©¤ src/                  # Source code directory (core module implementations)
-©¦   ©À©¤©¤ AsyncLogger.cpp   # Async logger function implementation
-©¦   ©À©¤©¤ ThreadPool.cpp    # Thread pool function implementation
-©¦   ©¸©¤©¤ main.cpp          # Module integration and high-concurrency testing entry
-©¸©¤©¤ demos/                # Independent function testing code (Unit Tests)
+â”œâ”€â”€ CMakeLists.txt        # CMake automated build configuration file
+â”œâ”€â”€ include/              # Header files directory (exposed interface declarations)
+â”‚   â”œâ”€â”€ AsyncLogger.h     # Async logger module declaration
+â”‚   â”œâ”€â”€ BlockingQueue.h   # Thread-safe blocking queue template implementation
+â”‚   â””â”€â”€ ThreadPool.h      # Thread pool module declaration
+â”œâ”€â”€ src/                  # Source code directory (core module implementations)
+â”‚   â”œâ”€â”€ AsyncLogger.cpp   # Async logger function implementation
+â”‚   â”œâ”€â”€ ThreadPool.cpp    # Thread pool function implementation
+â”‚   â””â”€â”€ main.cpp          # Module integration and high-concurrency testing entry
+â””â”€â”€ demos/                # Independent function testing code (Unit Tests)
 ```
 
 ## 4. Build and Run Guide
