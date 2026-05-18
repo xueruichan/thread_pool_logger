@@ -1,5 +1,5 @@
 # AsyncLogger & ThreadPool: High-Performance C++11 Basic Components Library
-[?? 中文版 (Chinese Version)](README_CN.md)
+[中文版 (Chinese Version)](README.md)
 
 ![C++](https://img.shields.io/badge/C++-11-blue.svg)
 ![Build](https://img.shields.io/badge/build-CMake-green.svg)
